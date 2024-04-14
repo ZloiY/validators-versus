@@ -1,0 +1,25 @@
+{
+  "name": "validators-versus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm build && pnpm run:node",
+    "build": "rollup -c",
+    "run:node": "node ./bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "yup": "^1.4.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.14.2",
+    "tslib": "^2.6.2"
+  }
+}
